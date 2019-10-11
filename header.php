@@ -18,6 +18,18 @@
                     <img src="<?php echo get_template_directory_uri() . "/img/logo.svg" ;?>" alt="Site logo">
                 </a>
             </div>
+
+            <?php 
+            
+                $args = array(
+                    'theme_location' => 'main-menu',
+                    'container' => 'nav',
+                    'container_class' => 'main-menu'
+                );
+
+                wp_nav_menu($args);
+
+            ?>
         </div>
 
     </div>

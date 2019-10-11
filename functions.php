@@ -1,6 +1,6 @@
 <?php 
 
-//Creates the menues
+// Creates the menues
 
 function gymfitness_menus() {
 
@@ -15,4 +15,8 @@ function gymfitness_menus() {
 
 add_action('init', 'gymfitness_menus');
 
+// Stylesheets and scripts 
 
+function gymfitness_scripts() {
+    
+}
