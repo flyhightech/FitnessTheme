@@ -12,3 +12,85 @@
     Text Domain: fitnessprototype  
 
 */
+
+:root {
+
+    /* Fonts */
+
+    --mainFont : 'Roboto', sans-serif;
+    --textFont : 'Roboto', sans-serif;
+    --secondaryFont : 'Roboto', sans-serif;
+
+    /* Colors */
+
+    --primary : #ff5b00;
+    --darkGrey : #2f2e2e;
+    --lightGrey : #ebebeb;
+
+    --white : #fff;
+    --black : #000;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--textFont);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+    font-family: var(--mainFont);
+    margin: .5rem 0;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.8rem;
+    color: var(--primary);
+
+}
+
+h3 {
+    font-size: 3.6rem;
+}
+
+/* Global */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Utilities */
+

@@ -24,7 +24,10 @@ function gymfitness_scripts() {
 
     //Google Fonts
     wp_enqueue_style('googlefont', 'https://fonts.googleapis.com/css?family=Roboto&display=swap', array(), '1.0.0');
-    
+
+    // Main Stylesheet
+    wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googlefont'), '1.0.0');
+
 }
 
 add_action('wp_enqueue_scripts', 'gymfitness_scripts');
