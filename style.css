@@ -94,3 +94,33 @@ img {
 
 /* Utilities */
 
+/* Header */
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.site-header {
+    background-color: var(--darkGrey);
+    padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+    .navigation-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
