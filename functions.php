@@ -41,3 +41,16 @@ function gymfitness_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'gymfitness_scripts');
+
+// Enable feature image and other elements 
+
+function gymfitness_setup() {
+
+    // Add feature image 
+
+    add_theme_support('post-thumbnails');
+}
+
+// When the theme is activated and ready this runs
+
+add_action('after_setup_theme', 'gymfitness_setup'); 
