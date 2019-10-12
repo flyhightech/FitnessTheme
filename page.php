@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <main class="container page section">
+    <main class="container page section no-sidebars">
 
         <?php while(have_posts(  )): the_post(); ?>
 
@@ -8,15 +8,11 @@
 
             <?php 
                 if( has_post_thumbnail() ):
-                    the_post_thumbnail();
-                else: 
-                    echo "No Image Found";
+                    the_post_thumbnail('blog');
                 endif;
             ?>
 
-            <div class="text-center">
                 <?php the_content() ;?>
-            </div>
 
         <?php endwhile ;?>
 
