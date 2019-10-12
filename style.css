@@ -151,6 +151,33 @@ img {
     border-bottom: .2rem solid var(--primary);
 }
 
+/* Mobile Menu */
+
+@media (min-width: 768px) {
+    .slicknav_menu {
+        display: none;
+    }
+}
+
+.slicknav_menu {
+    background-color: var(--darkGrey);
+}
+
+.slicknav_btn {
+    background-color: var(--primary);
+}
+
+.slicknav_nav a {
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: var(--mainFont);
+}
+
+.slicknav_nav a:hover {
+    background: transparent;
+    color: var(--primary);
+}
+
 /* Footer */
 
 .site-footer {

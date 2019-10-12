@@ -2,6 +2,6 @@ jQuery(document).ready(function($) {
 
     // Make the menu responsive 
 
-    $('#menu-main-navigation').slicknav();
+    $('#menu-main-menu').slicknav();
     
 });
