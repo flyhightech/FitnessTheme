@@ -22,11 +22,21 @@ function gymfitness_scripts() {
     // Normalize CSS
     wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.css', array(), '8.0.1');
 
-    //Google Fonts
+    // Google Fonts
     wp_enqueue_style('googlefont', 'https://fonts.googleapis.com/css?family=Roboto&display=swap', array(), '1.0.0');
+
+    // Slicknav CSS 
+    wp_enqueue_style('slicknavcss', get_template_directory_uri() . '/css/slicknav.min.css', array(), '1.0.10');
 
     // Main Stylesheet
     wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googlefont'), '1.0.0');
+
+    wp_enqueue_script('jquery');
+
+    // Load JS Files 
+    wp_enqueue_script('slicknavjs', get_template_directory_uri() . '/js/jquery.slicknav.min.css', array('jquery'), '1.0.10', true);
+
+    wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0', true);
 
 }
 
