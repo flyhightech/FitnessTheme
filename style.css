@@ -243,10 +243,20 @@ img {
 
 /* Page template */
 
-.page .no-sidebars {
+.featured-image {
+    margin-bottom: 3rem;
+}
+
+.page h1 {
+    margin-bottom: 4rem;
+}
+
+.page.no-sidebars {
     max-width: 80rem;
     margin: 0 auto;
 }
+
+/* Page with sidebars */
 
 
 
