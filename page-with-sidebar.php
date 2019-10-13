@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-    <main class="container page section with-sidebars">
+    <main class="container page section with-sidebar">
 
         <div class="page-content">
             <?php while(have_posts(  )): the_post(); ?>
@@ -24,7 +24,7 @@ get_header(); ?>
             <?php endwhile ;?>
         </div>
 
-        <aside>
+        <aside class="sidebar">
             <h2>Sidebar Here</h2>
         </aside>
     </main>
