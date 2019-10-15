@@ -16,4 +16,4 @@ function gymfitness_classes_list() { ?>
         <?php endwhile; wp_reset_postdata(); ?>
     </ul>
 
-<?php }
+<?php } 
