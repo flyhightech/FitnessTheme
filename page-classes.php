@@ -6,6 +6,7 @@
             gymfitness_classes_list();
         ?>
 
+
     </main>
 
 <?php get_footer(); ?>
